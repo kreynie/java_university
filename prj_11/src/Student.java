@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Student {
     private int iDNumber;
     private double gpa;
