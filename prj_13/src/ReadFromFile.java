@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReadFromFile {
     public static void readFromFileAndPrint() {
         try {
-            FileReader reader = new FileReader("output.txt");
+            FileReader reader = new FileReader("C:\\Users\\dworl\\Desktop\\output.txt");
             Scanner scanner = new Scanner(reader);
 
             while (scanner.hasNextLine()) {

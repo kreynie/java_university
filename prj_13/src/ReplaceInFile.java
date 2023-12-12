@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReplaceInFile {
     public static void replaceInFileFromConsole() {
         try {
-            FileWriter writer = new FileWriter("output.txt");
+            FileWriter writer = new FileWriter("C:\\Users\\dworl\\Desktop\\output.txt");
             Scanner scanner = new Scanner(System.in);
 
             System.out.println("Введите новую информацию для замены в файле:");

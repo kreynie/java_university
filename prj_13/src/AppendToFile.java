@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AppendToFile {
     public static void appendToFileFromConsole() {
         try {
-            FileWriter writer = new FileWriter("output.txt", true);
+            FileWriter writer = new FileWriter("C:\\Users\\dworl\\Desktop\\output.txt", true);
             Scanner scanner = new Scanner(System.in);
 
             System.out.println("Введите текст для добавления в файл:");

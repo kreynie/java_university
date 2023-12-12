@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WriteToFile {
     public static void writeToFileFromConsole() {
         try {
-            FileWriter writer = new FileWriter("output.txt");
+            FileWriter writer = new FileWriter("C:\\Users\\dworl\\Desktop\\output.txt");
             Scanner scanner = new Scanner(System.in);
 
             System.out.println("Введите информацию для записи в файл:");
